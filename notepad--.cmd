@@ -1,6 +1,6 @@
 @echo off
 for /f %%a in ('echo prompt $H ^| cmd') do set "BS=%%a"
-title NOTEPAD--
+title padnote--
 setlocal enabledelayedexpansion
 set /p a=What is your file name(and its extension) : 
 set aa=1
